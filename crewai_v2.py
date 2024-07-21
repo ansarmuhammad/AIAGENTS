@@ -17,7 +17,7 @@ import os
 from crewai import Agent, Task, Crew
 from anthropic import Anthropic
 
-os.environ["ANTHROPIC_API_KEY"] = "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"
+os.environ["ANTHROPIC_API_KEY"] = "removed the secret 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"
 
 client=Anthropic()
 
@@ -107,7 +107,7 @@ print(search_queries_result)
 
 from crewai_tools import SerperDevTool
 
-os.environ["SERPER_API-KEY"]="b698d3f4c6e2f11b19bf3367a8e0a1ceb814a106"
+os.environ["SERPER_API-KEY"]="removed the secret b698d3f4c6e2f11b19bf3367a8e0a1ceb814a106"
 
 search_tool = SerperDevTool()
 
